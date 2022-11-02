@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43A5F40829130DF900D76866 /* WaveImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5F40729130DF900D76866 /* WaveImage.swift */; };
+		43BAF4F02912BA3A00427BB0 /* ProxyCurvyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF4EF2912BA3A00427BB0 /* ProxyCurvyApp.swift */; };
+		43BAF4F22912BA3A00427BB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF4F12912BA3A00427BB0 /* ContentView.swift */; };
+		43BAF4F42912BA3B00427BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BAF4F32912BA3B00427BB0 /* Assets.xcassets */; };
+		43BAF4F72912BA3B00427BB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BAF4F62912BA3B00427BB0 /* Preview Assets.xcassets */; };
+		43BAF5012912BA3B00427BB0 /* ProxyCurvyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF5002912BA3B00427BB0 /* ProxyCurvyTests.swift */; };
+		43BAF50B2912BA3B00427BB0 /* ProxyCurvyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF50A2912BA3B00427BB0 /* ProxyCurvyUITests.swift */; };
+		43BAF50D2912BA3B00427BB0 /* ProxyCurvyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF50C2912BA3B00427BB0 /* ProxyCurvyUITestsLaunchTests.swift */; };
+		43BAF51A2912BEF800427BB0 /* WaveBaby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF5192912BEF800427BB0 /* WaveBaby.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43BAF4FD2912BA3B00427BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43BAF4E42912BA3A00427BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43BAF4EB2912BA3A00427BB0;
+			remoteInfo = ProxyCurvy;
+		};
+		43BAF5072912BA3B00427BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43BAF4E42912BA3A00427BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43BAF4EB2912BA3A00427BB0;
+			remoteInfo = ProxyCurvy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43A5F40729130DF900D76866 /* WaveImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveImage.swift; sourceTree = "<group>"; };
+		43BAF4EC2912BA3A00427BB0 /* ProxyCurvy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxyCurvy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BAF4EF2912BA3A00427BB0 /* ProxyCurvyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyCurvyApp.swift; sourceTree = "<group>"; };
+		43BAF4F12912BA3A00427BB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43BAF4F32912BA3B00427BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43BAF4F62912BA3B00427BB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43BAF4FC2912BA3B00427BB0 /* ProxyCurvyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyCurvyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BAF5002912BA3B00427BB0 /* ProxyCurvyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyCurvyTests.swift; sourceTree = "<group>"; };
+		43BAF5062912BA3B00427BB0 /* ProxyCurvyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyCurvyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BAF50A2912BA3B00427BB0 /* ProxyCurvyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyCurvyUITests.swift; sourceTree = "<group>"; };
+		43BAF50C2912BA3B00427BB0 /* ProxyCurvyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyCurvyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43BAF5192912BEF800427BB0 /* WaveBaby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveBaby.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43BAF4E92912BA3A00427BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BAF4F92912BA3B00427BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BAF5032912BA3B00427BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43BAF4E32912BA3A00427BB0 = {
+			isa = PBXGroup;
+			children = (
+				43BAF4EE2912BA3A00427BB0 /* ProxyCurvy */,
+				43BAF4FF2912BA3B00427BB0 /* ProxyCurvyTests */,
+				43BAF5092912BA3B00427BB0 /* ProxyCurvyUITests */,
+				43BAF4ED2912BA3A00427BB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43BAF4ED2912BA3A00427BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43BAF4EC2912BA3A00427BB0 /* ProxyCurvy.app */,
+				43BAF4FC2912BA3B00427BB0 /* ProxyCurvyTests.xctest */,
+				43BAF5062912BA3B00427BB0 /* ProxyCurvyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43BAF4EE2912BA3A00427BB0 /* ProxyCurvy */ = {
+			isa = PBXGroup;
+			children = (
+				43BAF4EF2912BA3A00427BB0 /* ProxyCurvyApp.swift */,
+				43BAF4F12912BA3A00427BB0 /* ContentView.swift */,
+				43BAF4F32912BA3B00427BB0 /* Assets.xcassets */,
+				43BAF4F52912BA3B00427BB0 /* Preview Content */,
+				43BAF5192912BEF800427BB0 /* WaveBaby.swift */,
+				43A5F40729130DF900D76866 /* WaveImage.swift */,
+			);
+			path = ProxyCurvy;
+			sourceTree = "<group>";
+		};
+		43BAF4F52912BA3B00427BB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43BAF4F62912BA3B00427BB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43BAF4FF2912BA3B00427BB0 /* ProxyCurvyTests */ = {
+			isa = PBXGroup;
+			children = (
+				43BAF5002912BA3B00427BB0 /* ProxyCurvyTests.swift */,
+			);
+			path = ProxyCurvyTests;
+			sourceTree = "<group>";
+		};
+		43BAF5092912BA3B00427BB0 /* ProxyCurvyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43BAF50A2912BA3B00427BB0 /* ProxyCurvyUITests.swift */,
+				43BAF50C2912BA3B00427BB0 /* ProxyCurvyUITestsLaunchTests.swift */,
+			);
+			path = ProxyCurvyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43BAF4EB2912BA3A00427BB0 /* ProxyCurvy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BAF5102912BA3B00427BB0 /* Build configuration list for PBXNativeTarget "ProxyCurvy" */;
+			buildPhases = (
+				43BAF4E82912BA3A00427BB0 /* Sources */,
+				43BAF4E92912BA3A00427BB0 /* Frameworks */,
+				43BAF4EA2912BA3A00427BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProxyCurvy;
+			productName = ProxyCurvy;
+			productReference = 43BAF4EC2912BA3A00427BB0 /* ProxyCurvy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43BAF4FB2912BA3B00427BB0 /* ProxyCurvyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BAF5132912BA3B00427BB0 /* Build configuration list for PBXNativeTarget "ProxyCurvyTests" */;
+			buildPhases = (
+				43BAF4F82912BA3B00427BB0 /* Sources */,
+				43BAF4F92912BA3B00427BB0 /* Frameworks */,
+				43BAF4FA2912BA3B00427BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43BAF4FE2912BA3B00427BB0 /* PBXTargetDependency */,
+			);
+			name = ProxyCurvyTests;
+			productName = ProxyCurvyTests;
+			productReference = 43BAF4FC2912BA3B00427BB0 /* ProxyCurvyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43BAF5052912BA3B00427BB0 /* ProxyCurvyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BAF5162912BA3B00427BB0 /* Build configuration list for PBXNativeTarget "ProxyCurvyUITests" */;
+			buildPhases = (
+				43BAF5022912BA3B00427BB0 /* Sources */,
+				43BAF5032912BA3B00427BB0 /* Frameworks */,
+				43BAF5042912BA3B00427BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43BAF5082912BA3B00427BB0 /* PBXTargetDependency */,
+			);
+			name = ProxyCurvyUITests;
+			productName = ProxyCurvyUITests;
+			productReference = 43BAF5062912BA3B00427BB0 /* ProxyCurvyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43BAF4E42912BA3A00427BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					43BAF4EB2912BA3A00427BB0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					43BAF4FB2912BA3B00427BB0 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 43BAF4EB2912BA3A00427BB0;
+					};
+					43BAF5052912BA3B00427BB0 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 43BAF4EB2912BA3A00427BB0;
+					};
+				};
+			};
+			buildConfigurationList = 43BAF4E72912BA3A00427BB0 /* Build configuration list for PBXProject "ProxyCurvy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43BAF4E32912BA3A00427BB0;
+			productRefGroup = 43BAF4ED2912BA3A00427BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43BAF4EB2912BA3A00427BB0 /* ProxyCurvy */,
+				43BAF4FB2912BA3B00427BB0 /* ProxyCurvyTests */,
+				43BAF5052912BA3B00427BB0 /* ProxyCurvyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43BAF4EA2912BA3A00427BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BAF4F72912BA3B00427BB0 /* Preview Assets.xcassets in Resources */,
+				43BAF4F42912BA3B00427BB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BAF4FA2912BA3B00427BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BAF5042912BA3B00427BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43BAF4E82912BA3A00427BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A5F40829130DF900D76866 /* WaveImage.swift in Sources */,
+				43BAF51A2912BEF800427BB0 /* WaveBaby.swift in Sources */,
+				43BAF4F22912BA3A00427BB0 /* ContentView.swift in Sources */,
+				43BAF4F02912BA3A00427BB0 /* ProxyCurvyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BAF4F82912BA3B00427BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BAF5012912BA3B00427BB0 /* ProxyCurvyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BAF5022912BA3B00427BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BAF50B2912BA3B00427BB0 /* ProxyCurvyUITests.swift in Sources */,
+				43BAF50D2912BA3B00427BB0 /* ProxyCurvyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43BAF4FE2912BA3B00427BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43BAF4EB2912BA3A00427BB0 /* ProxyCurvy */;
+			targetProxy = 43BAF4FD2912BA3B00427BB0 /* PBXContainerItemProxy */;
+		};
+		43BAF5082912BA3B00427BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43BAF4EB2912BA3A00427BB0 /* ProxyCurvy */;
+			targetProxy = 43BAF5072912BA3B00427BB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43BAF50E2912BA3B00427BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43BAF50F2912BA3B00427BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43BAF5112912BA3B00427BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProxyCurvy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dejager.nate.ProxyCurvy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43BAF5122912BA3B00427BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProxyCurvy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dejager.nate.ProxyCurvy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43BAF5142912BA3B00427BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dejager.nate.ProxyCurvyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyCurvy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProxyCurvy";
+			};
+			name = Debug;
+		};
+		43BAF5152912BA3B00427BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dejager.nate.ProxyCurvyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyCurvy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProxyCurvy";
+			};
+			name = Release;
+		};
+		43BAF5172912BA3B00427BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dejager.nate.ProxyCurvyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProxyCurvy;
+			};
+			name = Debug;
+		};
+		43BAF5182912BA3B00427BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dejager.nate.ProxyCurvyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProxyCurvy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43BAF4E72912BA3A00427BB0 /* Build configuration list for PBXProject "ProxyCurvy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BAF50E2912BA3B00427BB0 /* Debug */,
+				43BAF50F2912BA3B00427BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43BAF5102912BA3B00427BB0 /* Build configuration list for PBXNativeTarget "ProxyCurvy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BAF5112912BA3B00427BB0 /* Debug */,
+				43BAF5122912BA3B00427BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43BAF5132912BA3B00427BB0 /* Build configuration list for PBXNativeTarget "ProxyCurvyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BAF5142912BA3B00427BB0 /* Debug */,
+				43BAF5152912BA3B00427BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43BAF5162912BA3B00427BB0 /* Build configuration list for PBXNativeTarget "ProxyCurvyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BAF5172912BA3B00427BB0 /* Debug */,
+				43BAF5182912BA3B00427BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43BAF4E42912BA3A00427BB0 /* Project object */;
+}
