@@ -26,8 +26,8 @@ struct WaveImage: View {
     
     private var frameView: some View {
         GeometryReader { proxy in
-            let minY = proxy.frame(in: CoordinateSpace.global).minY
-            let pct: CGFloat = (minY - waveStart) < 0 ? (min(abs(minY - waveStart), waveEnd) / waveEnd) : 0
+            let midY = proxy.frame(in: CoordinateSpace.global).midY
+            let pct: CGFloat = (midY - waveStart) < 0 ? (min(abs(midY - waveStart), waveEnd) / waveEnd) : 0
             
             DispatchQueue.main.async {
                 self.energy = Self.maxEnergy * pct
