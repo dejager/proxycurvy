@@ -1,6 +1,6 @@
 # Proxy Curvy
 
-A rough, lunchtime SwiftUI sketch demonstrating how to use a `GeometryProxy` to animate a a `Shape` mask while scrolling.
+A rough, lunchtime SwiftUI sketch demonstrating how to use a `GeometryProxy` to animate a `Shape` mask while scrolling.
 
 <br>
 
